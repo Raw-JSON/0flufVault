@@ -1,0 +1,52 @@
+/* style.css */
+
+/* Gallery Card Interactions */
+.wallpaper-card {
+    aspect-ratio: 9 / 16;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.wallpaper-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 20px 40px -10px rgba(0,0,0,0.5);
+    z-index: 10;
+}
+
+/* Overlay Active State */
+#fullscreen-overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Control Buttons */
+.control-btn {
+    padding: 12px 24px;
+    border-radius: 9999px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.control-btn.secondary {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+}
+.control-btn.secondary:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.control-btn.primary {
+    background: white;
+    color: black;
+    border: 1px solid white;
+}
+.control-btn.primary:hover {
+    background: #e5e5e5;
+    transform: scale(1.05);
+}
