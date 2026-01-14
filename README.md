@@ -24,3 +24,7 @@
 ## 📄 License
 
 [MIT License](LICENSE). Free to use, fork, and modify.
+---------------------
+*Built with 💡 ideas and 🤖 Gemini magic.*
+
+
