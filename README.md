@@ -29,4 +29,4 @@
 
 ## 📄 License
 
-MIT License. Free to use, fork, and modify.
+[MIT License](LICENSE). Free to use, fork, and modify.
